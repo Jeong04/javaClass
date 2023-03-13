@@ -10,24 +10,25 @@ public class Person {
 	 * 향후에 그 클래스를 버전업하면서 member variable의 이름을 변경해도
 	 * 그 클래스를 사용하는 외부 클래스에는 아무 영향을 미치지 않게 된다.
 	 */
-
-	String name;
-	int myAge;
-
+	
+	private String name = "홍길동";
+	private int myAge;
+	private String dept = "컴정";
+	
 	public String getName() {
 		return name;
 	}
-
+	
 	public void setAge(int age) {
 		if(age >= 0 && age <= 150)
 			this.myAge = age;
 		System.out.println("나이의 범위는 0부터 150까지 입니다.");
 	}
-
+	
 	public int getAge() {
 		return myAge;
 	}
-
+	
 	private void test() {
 		System.out.println(name);
 	}
