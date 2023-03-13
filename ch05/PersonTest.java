@@ -8,5 +8,7 @@ public class PersonTest {
 		
 		p.setAge(170);
 		System.out.println(p.getAge());
+		
+		System.out.println(p.getName());
 	}
 }
