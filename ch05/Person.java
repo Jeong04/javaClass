@@ -19,9 +19,9 @@ public class Person {
 		return name;
 	}
 	
-	public void setAge(int age) {
+	public void setAge(int myAge) {
 		if(myAge >= 0 && myAge <= 150)
-			this.myAge = age;
+			this.myAge = myAge;
 		System.out.println("나이의 범위는 0부터 150까지 입니다.");
 	}
 	
