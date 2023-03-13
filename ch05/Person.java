@@ -10,6 +10,15 @@ public class Person {
 	 * 향후에 그 클래스를 버전업하면서 member variable의 이름을 변경해도
 	 * 그 클래스를 사용하는 외부 클래스에는 아무 영향을 미치지 않게 된다.
 	 */
+		
+	/*
+	 * 접근제어지정자(access modifier)
+	 *   : public, protected, default, private
+	 * public이 명시된 member(variable/method)는 그 클래스 내부, 외부 어느 곳에서든 접근 가능
+	 * protected가 명시된 member는 그 클래스 내부, 그 클래스의 자식, 그 클래스와 같은 패키지에 속한 다른 클래스에서만 접근 가능
+	 * 접근제어지정자가 명시되지 않은 경우, 이를 default 접근제어지정자라고 한다.
+	 * default 접근제어지정자가 명시된 member는 그 클래스 내부와 그 클래스와 같은 패키지에 속한 다른 클래스에서만 접근 가능
+	 */
 	
 	private String name = "홍길동";
 	private int myAge;
